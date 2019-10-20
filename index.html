@@ -12,7 +12,11 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/maincss.css">
-    
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
     
   </head>
 
@@ -24,7 +28,7 @@
           <h3 class="masthead-brand">Borccoli Business</h3>
           <nav class="nav nav-masthead justify-content-center">
             <a class="nav-link active" href="Bench.html">Home</a>
-            <a class="nav-link" href="https://www.spreadshirt.com/user/broccolibusiness#?affiliateId=8054&orgn=MPS&netw=TW" target="_blank">Merch</a>
+            <a class="nav-link" href="https://www.spreadshirt.com/user/broccolibusiness#?affiliateId=8054&orgn=MPS&netw=TW" target="_blank" data-toggle="tooltip" data-placement="bottom" title="15% OFF!">Merch</a>
             <a class="nav-link" href="#">Contact</a>
           </nav>
         </div>
